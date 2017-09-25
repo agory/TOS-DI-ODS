@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_CJaHEaH9EeeZNqFIuvUoUg" name="Data_07" dataPackage="_CJauIKH9EeeZNqFIuvUoUg" Server="Localhost 127.0.0.1" FilePath="/Users/loicdelorme/Google Drive/Scolaire/5A/Semestre 9/Projet BI/TPs/2_données brutes/07_abréviations des types de voies du Grand Lyon/raw_data.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_CJauIKH9EeeZNqFIuvUoUg" name="default" dataManager="_CJaHEaH9EeeZNqFIuvUoUg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_CJauIaH9EeeZNqFIuvUoUg" id="_xEOHwKH8EeeZNqFIuvUoUg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CJauIqH9EeeZNqFIuvUoUg" label="motcomplet" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CJauI6H9EeeZNqFIuvUoUg" label="abreviation" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
