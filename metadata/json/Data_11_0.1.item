@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_0Sj90KOCEee4JPhg39nCFg" name="Data_11" dataPackage="_0Sj92aOCEee4JPhg39nCFg" JSONFilePath="/Users/loicdelorme/Google Drive/Scolaire/5A/Semestre 9/Projet BI/TPs/2_données brutes/11_points de débouché d'une adresse du Grand Lyon/raw_data.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_0Sj90aOCEee4JPhg39nCFg" LimitBoucle="50" AbsoluteXPathQuery="$.features[*]">
+      <schemaTargets xmi:id="_0Sj90qOCEee4JPhg39nCFg" RelativeXPathQuery="properties.numero" TagName="numero"/>
+      <schemaTargets xmi:id="_0Sj906OCEee4JPhg39nCFg" RelativeXPathQuery="properties.voie" TagName="voie"/>
+      <schemaTargets xmi:id="_0Sj91KOCEee4JPhg39nCFg" RelativeXPathQuery="properties.commune" TagName="commune"/>
+      <schemaTargets xmi:id="_0Sj91aOCEee4JPhg39nCFg" RelativeXPathQuery="properties.inseecommune" TagName="inseecommune"/>
+      <schemaTargets xmi:id="_0Sj91qOCEee4JPhg39nCFg" RelativeXPathQuery="properties.codefuv" TagName="codefuv"/>
+      <schemaTargets xmi:id="_0Sj916OCEee4JPhg39nCFg" RelativeXPathQuery="properties.datecreation" TagName="datecreation"/>
+      <schemaTargets xmi:id="_0Sj92KOCEee4JPhg39nCFg" RelativeXPathQuery="properties.gid" TagName="gid"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_0Sj92aOCEee4JPhg39nCFg" name="default" dataManager="_0Sj90KOCEee4JPhg39nCFg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_0Sj92qOCEee4JPhg39nCFg" id="_2T3jsKOBEee4JPhg39nCFg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Sj926OCEee4JPhg39nCFg" label="numero" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Sj93KOCEee4JPhg39nCFg" label="voie" length="48" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Sj93aOCEee4JPhg39nCFg" label="commune" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Sj93qOCEee4JPhg39nCFg" label="inseecommune" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Sj936OCEee4JPhg39nCFg" label="codefuv" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Sj94KOCEee4JPhg39nCFg" label="datecreation" length="-1" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Sj94aOCEee4JPhg39nCFg" label="gid" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

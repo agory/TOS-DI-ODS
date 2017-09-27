@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_IOrmoKOGEee4JPhg39nCFg" name="Data_08" dataPackage="_IOrmp6OGEee4JPhg39nCFg" JSONFilePath="/Users/loicdelorme/Google Drive/Scolaire/5A/Semestre 9/Projet BI/TPs/2_données brutes/08_arrondissements du Grand Lyon/raw_data.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_IOrmoaOGEee4JPhg39nCFg" LimitBoucle="50" AbsoluteXPathQuery="$.features[*]">
+      <schemaTargets xmi:id="_IOrmoqOGEee4JPhg39nCFg" RelativeXPathQuery="properties.nom" TagName="nom"/>
+      <schemaTargets xmi:id="_IOrmo6OGEee4JPhg39nCFg" RelativeXPathQuery="properties.nomreduit" TagName="nomreduit"/>
+      <schemaTargets xmi:id="_IOrmpKOGEee4JPhg39nCFg" RelativeXPathQuery="properties.insee" TagName="insee"/>
+      <schemaTargets xmi:id="_IOrmpaOGEee4JPhg39nCFg" RelativeXPathQuery="properties.libofficiel" TagName="libofficiel"/>
+      <schemaTargets xmi:id="_IOrmpqOGEee4JPhg39nCFg" RelativeXPathQuery="properties.gid" TagName="gid"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_IOrmp6OGEee4JPhg39nCFg" name="default" dataManager="_IOrmoKOGEee4JPhg39nCFg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_IOrmqKOGEee4JPhg39nCFg" id="_BFWMcKOGEee4JPhg39nCFg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IOrmqaOGEee4JPhg39nCFg" label="nom" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IOrmqqOGEee4JPhg39nCFg" label="nomreduit" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IOrmq6OGEee4JPhg39nCFg" label="insee" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IOrmrKOGEee4JPhg39nCFg" label="libofficiel" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IOrmraOGEee4JPhg39nCFg" label="gid" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
