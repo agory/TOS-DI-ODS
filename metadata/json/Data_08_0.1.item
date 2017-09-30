@@ -6,7 +6,6 @@
       <schemaTargets xmi:id="_IOrmo6OGEee4JPhg39nCFg" RelativeXPathQuery="properties.nomreduit" TagName="nomreduit"/>
       <schemaTargets xmi:id="_IOrmpKOGEee4JPhg39nCFg" RelativeXPathQuery="properties.insee" TagName="insee"/>
       <schemaTargets xmi:id="_IOrmpaOGEee4JPhg39nCFg" RelativeXPathQuery="properties.libofficiel" TagName="libofficiel"/>
-      <schemaTargets xmi:id="_IOrmpqOGEee4JPhg39nCFg" RelativeXPathQuery="properties.gid" TagName="gid"/>
     </schema>
   </TalendJSON:JSONFileConnection>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_IOrmp6OGEee4JPhg39nCFg" name="default" dataManager="_IOrmoKOGEee4JPhg39nCFg">
@@ -15,7 +14,6 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IOrmqqOGEee4JPhg39nCFg" label="nomreduit" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IOrmq6OGEee4JPhg39nCFg" label="insee" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IOrmrKOGEee4JPhg39nCFg" label="libofficiel" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IOrmraOGEee4JPhg39nCFg" label="gid" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>

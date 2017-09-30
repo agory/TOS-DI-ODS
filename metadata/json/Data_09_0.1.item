@@ -1,29 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendJSON:JSONFileConnection xmi:id="_6_SfEaODEee4JPhg39nCFg" name="Data_09" dataPackage="_6_SfHKODEee4JPhg39nCFg" JSONFilePath="/Users/loicdelorme/Google Drive/Scolaire/5A/Semestre 9/Projet BI/TPs/2_données brutes/09_communes du Grand Lyon/raw_data.json" Encoding="UTF-8" readbyMode="JSONPATH">
-    <schema xmi:id="_6_SfEqODEee4JPhg39nCFg" LimitBoucle="50" AbsoluteXPathQuery="$.features[*]">
-      <schemaTargets xmi:id="_6_SfE6ODEee4JPhg39nCFg" RelativeXPathQuery="properties.nom" TagName="nom"/>
-      <schemaTargets xmi:id="_6_SfFKODEee4JPhg39nCFg" RelativeXPathQuery="properties.nomreduit" TagName="nomreduit"/>
-      <schemaTargets xmi:id="_6_SfFaODEee4JPhg39nCFg" RelativeXPathQuery="properties.inseecommune" TagName="inseecommune"/>
-      <schemaTargets xmi:id="_6_SfFqODEee4JPhg39nCFg" RelativeXPathQuery="properties.datecreation" TagName="datecreation"/>
-      <schemaTargets xmi:id="_6_SfF6ODEee4JPhg39nCFg" RelativeXPathQuery="properties.datemajgraph" TagName="datemajgraph"/>
-      <schemaTargets xmi:id="_6_SfGKODEee4JPhg39nCFg" RelativeXPathQuery="properties.datemajalpha" TagName="datemajalpha"/>
-      <schemaTargets xmi:id="_6_SfGaODEee4JPhg39nCFg" RelativeXPathQuery="properties.trigramme" TagName="trigramme"/>
-      <schemaTargets xmi:id="_6_SfGqODEee4JPhg39nCFg" RelativeXPathQuery="properties.libofficiel" TagName="libofficiel"/>
-      <schemaTargets xmi:id="_6_SfG6ODEee4JPhg39nCFg" RelativeXPathQuery="properties.gid" TagName="gid"/>
+  <TalendJSON:JSONFileConnection xmi:id="_9xwiIKWxEeeLPLIeifoOwg" name="Data_09" dataPackage="_9xwiJqWxEeeLPLIeifoOwg" JSONFilePath="/Users/loicdelorme/Google Drive/Scolaire/5A/Semestre 9/Projet BI/TPs/2_données brutes/09_communes du Grand Lyon/raw_data.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_9xwiIaWxEeeLPLIeifoOwg" LimitBoucle="50" AbsoluteXPathQuery="$.features[*]">
+      <schemaTargets xmi:id="_9xwiIqWxEeeLPLIeifoOwg" RelativeXPathQuery="properties.nom" TagName="nom"/>
+      <schemaTargets xmi:id="_9xwiI6WxEeeLPLIeifoOwg" RelativeXPathQuery="properties.nomreduit" TagName="nomreduit"/>
+      <schemaTargets xmi:id="_9xwiJKWxEeeLPLIeifoOwg" RelativeXPathQuery="properties.inseecommune" TagName="inseecommune"/>
+      <schemaTargets xmi:id="_9xwiJaWxEeeLPLIeifoOwg" RelativeXPathQuery="properties.libofficiel" TagName="libofficiel"/>
     </schema>
   </TalendJSON:JSONFileConnection>
-  <orgomg.cwm.resource.record:RecordFile xmi:id="_6_SfHKODEee4JPhg39nCFg" name="default" dataManager="_6_SfEaODEee4JPhg39nCFg">
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_6_SfHaODEee4JPhg39nCFg" id="_pojcwKODEee4JPhg39nCFg" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6_SfHqODEee4JPhg39nCFg" label="nom" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6_SfH6ODEee4JPhg39nCFg" label="nomreduit" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6_SfIKODEee4JPhg39nCFg" label="inseecommune" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6_SfIaODEee4JPhg39nCFg" label="datecreation" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6_SfIqODEee4JPhg39nCFg" label="datemajgraph" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6_SfI6ODEee4JPhg39nCFg" label="datemajalpha" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6_SfJKODEee4JPhg39nCFg" label="trigramme" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6_SfJaODEee4JPhg39nCFg" label="libofficiel" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6_SfJqODEee4JPhg39nCFg" label="gid" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_9xwiJqWxEeeLPLIeifoOwg" name="default" dataManager="_9xwiIKWxEeeLPLIeifoOwg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9xwiJ6WxEeeLPLIeifoOwg" id="_zqXbYKWxEeeLPLIeifoOwg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xwiKKWxEeeLPLIeifoOwg" label="nom" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xwiKaWxEeeLPLIeifoOwg" label="nomreduit" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xwiKqWxEeeLPLIeifoOwg" label="inseecommune" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9xwiK6WxEeeLPLIeifoOwg" label="libofficiel" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>

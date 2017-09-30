@@ -1,0 +1,15 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="Numeric.sequence(&quot;Job_03_2&quot;, 1, 1)">
+  <variables name="row2.provider" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.parking_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.capacity_car" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.capacity_motorbike" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.capacity_bike" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.capacity_auto_sharing" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.capacity_disabled" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.state" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.last_update" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.last_update_fme" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.gid" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

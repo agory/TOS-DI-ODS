@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_BnBk4KXxEeerc4gpxbc_tQ" name="Data_03" dataPackage="_BnBk-6XxEeerc4gpxbc_tQ" JSONFilePath="/Users/loicdelorme/Google Drive/Scolaire/5A/Semestre 9/Projet BI/TPs/2_données brutes/03_parkings classiques/raw_data_equipement.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_BnBk4aXxEeerc4gpxbc_tQ" LimitBoucle="50" AbsoluteXPathQuery="$.features[*]">
+      <schemaTargets xmi:id="_BnBk4qXxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.nom" TagName="nom"/>
+      <schemaTargets xmi:id="_BnBk46XxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.idparking" TagName="idparking"/>
+      <schemaTargets xmi:id="_BnBk5KXxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.commune" TagName="commune"/>
+      <schemaTargets xmi:id="_BnBk5aXxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.proprietaire" TagName="proprietaire"/>
+      <schemaTargets xmi:id="_BnBk5qXxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.gestionnaire" TagName="gestionnaire"/>
+      <schemaTargets xmi:id="_BnBk56XxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.voieentree" TagName="voieentree"/>
+      <schemaTargets xmi:id="_BnBk6KXxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.voiesortie" TagName="voiesortie"/>
+      <schemaTargets xmi:id="_BnBk6aXxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.avancement" TagName="avancement"/>
+      <schemaTargets xmi:id="_BnBk6qXxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.annee" TagName="annee"/>
+      <schemaTargets xmi:id="_BnBk66XxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.typeparking" TagName="typeparking"/>
+      <schemaTargets xmi:id="_BnBk7KXxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.situation" TagName="situation"/>
+      <schemaTargets xmi:id="_BnBk7aXxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.parkingtempsreel" TagName="parkingtempsreel"/>
+      <schemaTargets xmi:id="_BnBk7qXxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.gabarit" TagName="gabarit"/>
+      <schemaTargets xmi:id="_BnBk76XxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.capacite" TagName="capacite"/>
+      <schemaTargets xmi:id="_BnBk8KXxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.capacite2rm" TagName="capacite2rm"/>
+      <schemaTargets xmi:id="_BnBk8aXxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.capacitevelo" TagName="capacitevelo"/>
+      <schemaTargets xmi:id="_BnBk8qXxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.capaciteautopartage" TagName="capaciteautopartage"/>
+      <schemaTargets xmi:id="_BnBk86XxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.capacitepmr" TagName="capacitepmr"/>
+      <schemaTargets xmi:id="_BnBk9KXxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.usage" TagName="usage"/>
+      <schemaTargets xmi:id="_BnBk9aXxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.reglementation" TagName="reglementation"/>
+      <schemaTargets xmi:id="_BnBk9qXxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.fermeture" TagName="fermeture"/>
+      <schemaTargets xmi:id="_BnBk96XxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.observation" TagName="observation"/>
+      <schemaTargets xmi:id="_BnBk-KXxEeerc4gpxbc_tQ" RelativeXPathQuery="properties.gid" TagName="gid"/>
+      <schemaTargets xmi:id="_BnBk-aXxEeerc4gpxbc_tQ" RelativeXPathQuery="geometry.coordinates[0]" TagName="latitude"/>
+      <schemaTargets xmi:id="_BnBk-qXxEeerc4gpxbc_tQ" RelativeXPathQuery="geometry.coordinates[1]" TagName="longitude"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_BnBk-6XxEeerc4gpxbc_tQ" name="default" dataManager="_BnBk4KXxEeerc4gpxbc_tQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_BnBk_KXxEeerc4gpxbc_tQ" id="_EZeT0KXwEeerc4gpxbc_tQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBk_aXxEeerc4gpxbc_tQ" label="nom" length="47" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBk_qXxEeerc4gpxbc_tQ" label="idparking" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBk_6XxEeerc4gpxbc_tQ" label="commune" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlAKXxEeerc4gpxbc_tQ" label="proprietaire" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlAaXxEeerc4gpxbc_tQ" label="gestionnaire" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlAqXxEeerc4gpxbc_tQ" label="voieentree" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlA6XxEeerc4gpxbc_tQ" label="voiesortie" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlBKXxEeerc4gpxbc_tQ" label="avancement" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlBaXxEeerc4gpxbc_tQ" label="annee" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlBqXxEeerc4gpxbc_tQ" label="typeparking" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlB6XxEeerc4gpxbc_tQ" label="situation" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlCKXxEeerc4gpxbc_tQ" label="parkingtempsreel" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlCaXxEeerc4gpxbc_tQ" label="gabarit" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlCqXxEeerc4gpxbc_tQ" label="capacite" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlC6XxEeerc4gpxbc_tQ" label="capacite2rm" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlDKXxEeerc4gpxbc_tQ" label="capacitevelo" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlDaXxEeerc4gpxbc_tQ" label="capaciteautopartage" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlDqXxEeerc4gpxbc_tQ" label="capacitepmr" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlD6XxEeerc4gpxbc_tQ" label="usage" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlEKXxEeerc4gpxbc_tQ" label="reglementation" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlEaXxEeerc4gpxbc_tQ" label="fermeture" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlEqXxEeerc4gpxbc_tQ" label="observation" length="103" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlE6XxEeerc4gpxbc_tQ" label="gid" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlFKXxEeerc4gpxbc_tQ" label="latitude" length="-1" precision="16" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BnBlFaXxEeerc4gpxbc_tQ" label="longitude" length="-1" precision="16" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

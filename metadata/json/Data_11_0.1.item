@@ -6,9 +6,6 @@
       <schemaTargets xmi:id="_0Sj906OCEee4JPhg39nCFg" RelativeXPathQuery="properties.voie" TagName="voie"/>
       <schemaTargets xmi:id="_0Sj91KOCEee4JPhg39nCFg" RelativeXPathQuery="properties.commune" TagName="commune"/>
       <schemaTargets xmi:id="_0Sj91aOCEee4JPhg39nCFg" RelativeXPathQuery="properties.inseecommune" TagName="inseecommune"/>
-      <schemaTargets xmi:id="_0Sj91qOCEee4JPhg39nCFg" RelativeXPathQuery="properties.codefuv" TagName="codefuv"/>
-      <schemaTargets xmi:id="_0Sj916OCEee4JPhg39nCFg" RelativeXPathQuery="properties.datecreation" TagName="datecreation"/>
-      <schemaTargets xmi:id="_0Sj92KOCEee4JPhg39nCFg" RelativeXPathQuery="properties.gid" TagName="gid"/>
     </schema>
   </TalendJSON:JSONFileConnection>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_0Sj92aOCEee4JPhg39nCFg" name="default" dataManager="_0Sj90KOCEee4JPhg39nCFg">
@@ -17,9 +14,6 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Sj93KOCEee4JPhg39nCFg" label="voie" length="48" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Sj93aOCEee4JPhg39nCFg" label="commune" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Sj93qOCEee4JPhg39nCFg" label="inseecommune" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Sj936OCEee4JPhg39nCFg" label="codefuv" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Sj94KOCEee4JPhg39nCFg" label="datecreation" length="-1" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Sj94aOCEee4JPhg39nCFg" label="gid" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>

@@ -1,0 +1,16 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="Numeric.sequence(&quot;Job_03_3_seq&quot;, 1, 1)">
+  <variables name="row2.ID" value="0" talendType="id_Integer"/>
+  <variables name="row2.PROVIDER" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.NAME" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.PARKING_ID" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.CAPACITY_CAR" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.CAPACITY_MOTORBIKE" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.CAPACITY_BIKE" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.CAPACITY_AUTO_SHARING" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.CAPACITY_DISABLED" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.STATE" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.LAST_UPDATE" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.LAST_UPDATE_FME" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.GID" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

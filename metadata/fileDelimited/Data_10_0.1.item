@@ -3,11 +3,11 @@
   <TalendMetadata:DelimitedFileConnection xmi:id="_T23w4KIJEeeZNqFIuvUoUg" name="Data_10" dataPackage="_T23w4aIJEeeZNqFIuvUoUg" Server="Localhost 127.0.0.1" FilePath="/Users/loicdelorme/Google Drive/Scolaire/5A/Semestre 9/Projet BI/TPs/2_données brutes/10_dénominations des voies du Grand Lyon/raw_data.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_T23w4aIJEeeZNqFIuvUoUg" name="default" dataManager="_T23w4KIJEeeZNqFIuvUoUg">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_T23w4qIJEeeZNqFIuvUoUg" id="_L6P4kKIJEeeZNqFIuvUoUg" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T23w46IJEeeZNqFIuvUoUg" label="codefuv" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T23w46IJEeeZNqFIuvUoUg" label="codefuv" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T23w5KIJEeeZNqFIuvUoUg" label="libelle" length="44" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T23w5aIJEeeZNqFIuvUoUg" label="libellereduit" length="41" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T23w5qIJEeeZNqFIuvUoUg" label="commune" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T23w56IJEeeZNqFIuvUoUg" label="inseecommune" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T23w56IJEeeZNqFIuvUoUg" label="inseecommune" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T23w6KIJEeeZNqFIuvUoUg" label="nature" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T23w6aIJEeeZNqFIuvUoUg" label="motdirecteur" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T23w6qIJEeeZNqFIuvUoUg" label="categorie" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
