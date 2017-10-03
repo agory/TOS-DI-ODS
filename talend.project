@@ -443,6 +443,35 @@
       <relatedItems xmi:id="_FemEoKX3Eeerc4gpxbc_tQ" id="_DW50cKWsEeeLPLIeifoOwg - TCL_CAR_PARK_RT_INFO_TMP" version="Latest" type="schema"/>
       <relatedItems xmi:id="_FemEoaX3Eeerc4gpxbc_tQ" id="_DW50cKWsEeeLPLIeifoOwg - TCL_CAR_PARK_RT_INFORMATION" version="Latest" type="schema"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_uxKRwKgXEeeR-ewMuv8w5g">
+      <baseItem xmi:id="_uxK40KgXEeeR-ewMuv8w5g" id="_uwXAgKgXEeeR-ewMuv8w5g" version="0.1" type="job"/>
+      <relatedItems xmi:id="_uxK40qgXEeeR-ewMuv8w5g" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uxK406gXEeeR-ewMuv8w5g" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uxK41KgXEeeR-ewMuv8w5g" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uxK41agXEeeR-ewMuv8w5g" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uxK41qgXEeeR-ewMuv8w5g" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uxK416gXEeeR-ewMuv8w5g" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uxK42KgXEeeR-ewMuv8w5g" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uxK42agXEeeR-ewMuv8w5g" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uxK42qgXEeeR-ewMuv8w5g" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_jQK00KhZEee1A8PLwGUC2w" id="DateHelper" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_wwt2cKheEee1A8PLwGUC2w" id="_DW50cKWsEeeLPLIeifoOwg" version="Latest" type="property"/>
+      <relatedItems xmi:id="_wwt2caheEee1A8PLwGUC2w" id="_DW50cKWsEeeLPLIeifoOwg - WEATHER_STATIONS" version="Latest" type="schema"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_U3q5UKgZEeeR-ewMuv8w5g">
+      <baseItem xmi:id="_U3q5UagZEeeR-ewMuv8w5g" id="_U3f6MKgZEeeR-ewMuv8w5g" version="0.1" type="job"/>
+      <relatedItems xmi:id="_U3q5UqgZEeeR-ewMuv8w5g" id="_DW50cKWsEeeLPLIeifoOwg" version="Latest" type="property"/>
+      <relatedItems xmi:id="_U3q5U6gZEeeR-ewMuv8w5g" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_U3q5VKgZEeeR-ewMuv8w5g" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_U3q5VagZEeeR-ewMuv8w5g" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_U3q5VqgZEeeR-ewMuv8w5g" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_U3q5V6gZEeeR-ewMuv8w5g" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_U3q5WKgZEeeR-ewMuv8w5g" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_U3q5WagZEeeR-ewMuv8w5g" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_U3q5WqgZEeeR-ewMuv8w5g" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_U3q5W6gZEeeR-ewMuv8w5g" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hBa5YKgZEeeR-ewMuv8w5g" id="_DW50cKWsEeeLPLIeifoOwg - WEATHER_STATIONS" version="Latest" type="schema"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_XbAW8KEBEee01LnnNNRKJw" id="org.talend.designer.core.ui.preferences.migration.ChangeMysqlVersionForProjectSetting" breaks="5.2.0" version="5.1.3" status="ok"/>
     <migrationTask xmi:id="_XbAW8aEBEee01LnnNNRKJw" id="org.talend.designer.core.ui.preferences.migration.ChangeOracleVersionForProjectSetting" breaks="5.2.0" version="5.2.1" status="ok"/>
     <migrationTask xmi:id="_XbAW8qEBEee01LnnNNRKJw" id="org.talend.designer.maven.ui.ConfigMavenRepositoryRemove" breaks="6.0.1" version="6.0.2" status="ok"/>

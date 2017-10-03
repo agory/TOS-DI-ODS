@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_YtTjkKgYEeeR-ewMuv8w5g" name="Data_12" dataPackage="_YtTjkagYEeeR-ewMuv8w5g" Server="Localhost 127.0.0.1" FilePath="/Users/loicdelorme/Google Drive/Scolaire/5A/Semestre 9/Projet BI/TPs/2_données brutes/12_météo/weather-lyon--2017-09-1.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_YtTjkagYEeeR-ewMuv8w5g" name="default" dataManager="_YtTjkKgYEeeR-ewMuv8w5g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_YtTjkqgYEeeR-ewMuv8w5g" id="_PFf70KgYEeeR-ewMuv8w5g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YtTjk6gYEeeR-ewMuv8w5g" label="Time__CEST_" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YtTjlKgYEeeR-ewMuv8w5g" label="Temp_" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YtTjlagYEeeR-ewMuv8w5g" label="Dew_Point" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YtTjlqgYEeeR-ewMuv8w5g" label="Humidity" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YtTjl6gYEeeR-ewMuv8w5g" label="Pressure" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YtTjmKgYEeeR-ewMuv8w5g" label="Visibility" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YtTjmagYEeeR-ewMuv8w5g" label="Wind_Dir" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YtTjmqgYEeeR-ewMuv8w5g" label="Wind_Speed" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YtTjm6gYEeeR-ewMuv8w5g" label="Gust_Speed" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YtTjnKgYEeeR-ewMuv8w5g" label="Precip" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YtTjnagYEeeR-ewMuv8w5g" label="Events" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YtTjnqgYEeeR-ewMuv8w5g" label="Conditions" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

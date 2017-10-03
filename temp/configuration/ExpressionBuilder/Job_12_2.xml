@@ -1,0 +1,18 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="DateHelper.fromRow(((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;)), row1.Time__CEST_)">
+  <variables name="row1.Time__CEST_" value="12:00 AM" talendType="id_String" nullable="true"/>
+  <variables name="row1.Temp_" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Dew_Point" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Humidity" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Pressure" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Visibility" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Wind_Dir" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Wind_Speed" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Gust_Speed" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Precip" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Events" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Conditions" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.ID" value="0" talendType="id_Integer"/>
+  <variables name="row3.NAME" value="null" talendType="id_String" nullable="true"/>
+  <variables name="test" value="weather-lyon--2017-09-1"/>
+</expression:EMFExpression>
